@@ -1,0 +1,18 @@
+# AChR-MG 分子动画 · ChimeraX 结构检查
+# 用法：在 ChimeraX 底部命令行输入  open 本文件的完整路径   （需要联网，从 PDB 下载结构）
+# 作用：并排查看人源 AChR（ACh 结合态）、AChR + 患者来源 Fab、Fab35–α1 复合物，
+#       在 Log 面板的 "Chain information" 表中核对每条链是哪个亚基或抗体链。
+# 说明：以下均为 ChimeraX 标准命令，但未在本仓库的测试环境中运行（该环境无法安装 ChimeraX），
+#       如有报错，请把 Log 中的报错信息反馈。
+
+open 9dmh
+open 9dmj
+open 5hbt
+color bypolymer
+lighting soft
+graphics silhouettes true
+set bgColor #0f1726
+tile
+
+# 画出 9DMJ 中各链之间的接触界面图：可以看到 Fab 与哪些受体亚基接触、接触面积多大
+interfaces #2

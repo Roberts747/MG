@@ -1,0 +1,479 @@
+{
+  "fps": 24,
+  "total_seconds": 300,
+  "frame_start": 1,
+  "frame_end": 7200,
+  "shots": [
+    {
+      "id": "S01",
+      "act": "第一幕 开场（00:00–00:12）",
+      "part": "",
+      "start_seconds": 0,
+      "end_seconds": 3,
+      "frame_start": 1,
+      "frame_end": 72,
+      "narration": "",
+      "subtitle": []
+    },
+    {
+      "id": "S02",
+      "act": "第一幕 开场（00:00–00:12）",
+      "part": "",
+      "start_seconds": 3,
+      "end_seconds": 12,
+      "frame_start": 73,
+      "frame_end": 288,
+      "narration": "每一次抬手、眨眼，都始于神经交给肌肉的一个信号。交接的地方，叫作神经肌肉接头。",
+      "subtitle": [
+        "抬手、眨眼都始于神经→肌肉的信号",
+        "交接处：神经肌肉接头（NMJ）"
+      ]
+    },
+    {
+      "id": "S03",
+      "act": "第二幕 正常神经肌肉接头信号传递（00:12–01:17）",
+      "part": "",
+      "start_seconds": 12,
+      "end_seconds": 20,
+      "frame_start": 289,
+      "frame_end": 480,
+      "narration": "上方是神经末梢，下方是层层褶皱的肌膜，中间是狭窄的突触间隙。",
+      "subtitle": [
+        "神经末梢 · 突触间隙 · 褶皱肌膜"
+      ]
+    },
+    {
+      "id": "S04",
+      "act": "第二幕 正常神经肌肉接头信号传递（00:12–01:17）",
+      "part": "",
+      "start_seconds": 20,
+      "end_seconds": 28,
+      "frame_start": 481,
+      "frame_end": 672,
+      "narration": "褶皱顶端密集排列着乙酰胆碱受体：五个亚基围成一圈，中间是离子通道。",
+      "subtitle": [
+        "褶皱顶端：乙酰胆碱受体（AChR）",
+        "五个亚基围成离子通道"
+      ]
+    },
+    {
+      "id": "S05",
+      "act": "第二幕 正常神经肌肉接头信号传递（00:12–01:17）",
+      "part": "",
+      "start_seconds": 28,
+      "end_seconds": 38,
+      "frame_start": 673,
+      "frame_end": 912,
+      "narration": "神经冲动一到，钙离子涌入末梢，突触小泡随即与膜融合，把乙酰胆碱释放进间隙。",
+      "subtitle": [
+        "冲动到达 → Ca²⁺ 内流",
+        "小泡融合，释放 ACh"
+      ]
+    },
+    {
+      "id": "S06",
+      "act": "第二幕 正常神经肌肉接头信号传递（00:12–01:17）",
+      "part": "",
+      "start_seconds": 38,
+      "end_seconds": 47,
+      "frame_start": 913,
+      "frame_end": 1128,
+      "narration": "乙酰胆碱穿过间隙，两个分子结合一个受体，通道打开，钠离子流入肌细胞。",
+      "subtitle": [
+        "ACh 跨过间隙，2 个结合 1 个受体",
+        "通道开放，Na⁺ 内流"
+      ]
+    },
+    {
+      "id": "S07",
+      "act": "第二幕 正常神经肌肉接头信号传递（00:12–01:17）",
+      "part": "",
+      "start_seconds": 47,
+      "end_seconds": 58,
+      "frame_start": 1129,
+      "frame_end": 1392,
+      "narration": "大量通道同时开放，形成终板电位；它激活褶皱深处的钠通道，引发动作电位，肌肉随之收缩。",
+      "subtitle": [
+        "终板电位（EPP）→ 谷底钠通道开放",
+        "肌肉动作电位 → 收缩"
+      ]
+    },
+    {
+      "id": "S08",
+      "act": "第二幕 正常神经肌肉接头信号传递（00:12–01:17）",
+      "part": "",
+      "start_seconds": 58,
+      "end_seconds": 67,
+      "frame_start": 1393,
+      "frame_end": 1608,
+      "narration": "随后，乙酰胆碱酯酶迅速分解乙酰胆碱，信号结束，接头准备迎接下一次冲动。",
+      "subtitle": [
+        "乙酰胆碱酯酶（AChE）分解 ACh",
+        "信号结束，准备下一次冲动"
+      ]
+    },
+    {
+      "id": "S09",
+      "act": "第二幕 正常神经肌肉接头信号传递（00:12–01:17）",
+      "part": "",
+      "start_seconds": 67,
+      "end_seconds": 77,
+      "frame_start": 1609,
+      "frame_end": 1848,
+      "narration": "正常时，终板电位远高于触发动作电位的阈值，这份富余叫作安全系数。",
+      "subtitle": [
+        "EPP 远高于阈值",
+        "富余部分：安全系数"
+      ]
+    },
+    {
+      "id": "S10",
+      "act": "第三幕 自身抗体出现（01:17–01:41）",
+      "part": "",
+      "start_seconds": 77,
+      "end_seconds": 87,
+      "frame_start": 1849,
+      "frame_end": 2088,
+      "narration": "在这类重症肌无力中，免疫系统错误地把乙酰胆碱受体当作攻击目标，产生了自身抗体。",
+      "subtitle": [
+        "AChR-MG：免疫系统产生",
+        "针对乙酰胆碱受体的自身抗体"
+      ]
+    },
+    {
+      "id": "S11",
+      "act": "第三幕 自身抗体出现（01:17–01:41）",
+      "part": "",
+      "start_seconds": 87,
+      "end_seconds": 97,
+      "frame_start": 2089,
+      "frame_end": 2328,
+      "narration": "这些抗体主要是 IgG1 和 IgG3，大多结合在受体α亚基顶端的主要免疫原区。",
+      "subtitle": [
+        "抗体主要为 IgG1、IgG3",
+        "多结合 α 亚基主要免疫原区（MIR）"
+      ]
+    },
+    {
+      "id": "S12",
+      "act": "第三幕 自身抗体出现（01:17–01:41）",
+      "part": "",
+      "start_seconds": 97,
+      "end_seconds": 101,
+      "frame_start": 2329,
+      "frame_end": 2424,
+      "narration": "它们主要通过三种方式造成损害。",
+      "subtitle": [
+        "三种致病方式"
+      ]
+    },
+    {
+      "id": "S13",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制① 阻断 ACh 结合位点（01:41–01:57）",
+      "start_seconds": 101,
+      "end_seconds": 111,
+      "frame_start": 2425,
+      "frame_end": 2664,
+      "narration": "第一种：阻断。少数抗体结合在乙酰胆碱结合位点附近，挡住乙酰胆碱，通道就打不开。",
+      "subtitle": [
+        "① 阻断：抗体挡住 ACh 结合位点",
+        "通道无法开放"
+      ]
+    },
+    {
+      "id": "S14",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制① 阻断 ACh 结合位点（01:41–01:57）",
+      "start_seconds": 111,
+      "end_seconds": 117,
+      "frame_start": 2665,
+      "frame_end": 2808,
+      "narration": "受体还在，膜也完好，但能用的受体变少了。",
+      "subtitle": [
+        "受体与膜完好",
+        "可用受体减少"
+      ]
+    },
+    {
+      "id": "S15",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制② 交联、内化与降解（01:57–02:26）",
+      "start_seconds": 117,
+      "end_seconds": 127,
+      "frame_start": 2809,
+      "frame_end": 3048,
+      "narration": "第二种：交联与内化。抗体有两条手臂，能把相邻的两个受体连在一起，连成一片。",
+      "subtitle": [
+        "② 交联：一个 IgG 连接两个相邻受体",
+        "受体连成一片"
+      ]
+    },
+    {
+      "id": "S16",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制② 交联、内化与降解（01:57–02:26）",
+      "start_seconds": 127,
+      "end_seconds": 136,
+      "frame_start": 3049,
+      "frame_end": 3264,
+      "narration": "连成片的受体会被肌细胞加速吞入，送进溶酶体降解。",
+      "subtitle": [
+        "受体被加速内吞",
+        "在溶酶体中降解"
+      ]
+    },
+    {
+      "id": "S17",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制② 交联、内化与降解（01:57–02:26）",
+      "start_seconds": 136,
+      "end_seconds": 146,
+      "frame_start": 3265,
+      "frame_end": 3504,
+      "narration": "肌细胞虽会合成新受体补充，但赶不上降解速度，受体总数随之下降。",
+      "subtitle": [
+        "新合成赶不上降解",
+        "受体总数下降"
+      ]
+    },
+    {
+      "id": "S18",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制③ 补体激活破坏突触后膜（02:26–03:10）",
+      "start_seconds": 146,
+      "end_seconds": 156,
+      "frame_start": 3505,
+      "frame_end": 3744,
+      "narration": "第三种：补体攻击。密集结合的 IgG1、IgG3 尾部，会招来补体成分 C1q。",
+      "subtitle": [
+        "③ 补体攻击：抗体 Fc 端",
+        "招募补体 C1q"
+      ]
+    },
+    {
+      "id": "S19",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制③ 补体激活破坏突触后膜（02:26–03:10）",
+      "start_seconds": 156,
+      "end_seconds": 165,
+      "frame_start": 3745,
+      "frame_end": 3960,
+      "narration": "随后一连串酶切反应层层放大，大量补体片段沉积在突触后膜上。",
+      "subtitle": [
+        "补体级联逐级放大",
+        "补体片段（C3b）沉积于突触后膜"
+      ]
+    },
+    {
+      "id": "S20",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制③ 补体激活破坏突触后膜（02:26–03:10）",
+      "start_seconds": 165,
+      "end_seconds": 175,
+      "frame_start": 3961,
+      "frame_end": 4200,
+      "narration": "终点是膜攻击复合物：补体分子在肌膜上围成环状孔道，把膜打穿。",
+      "subtitle": [
+        "膜攻击复合物（MAC，C5b-9）",
+        "在肌膜上形成孔道"
+      ]
+    },
+    {
+      "id": "S21",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制③ 补体激活破坏突触后膜（02:26–03:10）",
+      "start_seconds": 175,
+      "end_seconds": 181,
+      "frame_start": 4201,
+      "frame_end": 4344,
+      "narration": "受损的膜连同受体一起脱落，掉进突触间隙。",
+      "subtitle": [
+        "受损膜片连同受体",
+        "脱落入突触间隙"
+      ]
+    },
+    {
+      "id": "S22",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "机制③ 补体激活破坏突触后膜（02:26–03:10）",
+      "start_seconds": 181,
+      "end_seconds": 190,
+      "frame_start": 4345,
+      "frame_end": 4560,
+      "narration": "反复攻击后，褶皱变浅变平，间隙变宽，受体和钠通道都明显减少。",
+      "subtitle": [
+        "褶皱变浅、间隙变宽",
+        "受体与钠通道减少"
+      ]
+    },
+    {
+      "id": "S23",
+      "act": "第四幕 三条致病机制（01:41–03:17）",
+      "part": "三条机制小结（03:10–03:17）",
+      "start_seconds": 190,
+      "end_seconds": 197,
+      "frame_start": 4561,
+      "frame_end": 4728,
+      "narration": "三种方式可以同时存在，结果都是：能接收信号的受体变少。",
+      "subtitle": [
+        "三种机制可同时存在",
+        "共同结果：可用受体减少"
+      ]
+    },
+    {
+      "id": "S24",
+      "act": "第五幕 信号减弱与肌无力（03:17–03:47）",
+      "part": "",
+      "start_seconds": 197,
+      "end_seconds": 207,
+      "frame_start": 4729,
+      "frame_end": 4968,
+      "narration": "此时神经释放的乙酰胆碱并不少，问题在接收端：同样的信号，只能打开少数通道。",
+      "subtitle": [
+        "ACh 释放并不少，问题在接收端",
+        "只能开放少数通道"
+      ]
+    },
+    {
+      "id": "S25",
+      "act": "第五幕 信号减弱与肌无力（03:17–03:47）",
+      "part": "",
+      "start_seconds": 207,
+      "end_seconds": 216,
+      "frame_start": 4969,
+      "frame_end": 5184,
+      "narration": "终板电位变小，钠通道减少又抬高了阈值，安全系数被大大压缩。",
+      "subtitle": [
+        "EPP 变小、阈值升高",
+        "安全系数下降"
+      ]
+    },
+    {
+      "id": "S26",
+      "act": "第五幕 信号减弱与肌无力（03:17–03:47）",
+      "part": "",
+      "start_seconds": 216,
+      "end_seconds": 227,
+      "frame_start": 5185,
+      "frame_end": 5448,
+      "narration": "一些肌纤维的终板电位够不到阈值，就不会收缩。参与收缩的纤维少了，肌肉就表现为无力。",
+      "subtitle": [
+        "部分肌纤维达不到阈值、不收缩",
+        "收缩纤维减少 → 肌无力"
+      ]
+    },
+    {
+      "id": "S27",
+      "act": "第六幕 波动性肌无力（03:47–04:20）",
+      "part": "",
+      "start_seconds": 227,
+      "end_seconds": 239,
+      "frame_start": 5449,
+      "frame_end": 5736,
+      "narration": "连续发放冲动时，每次释放的乙酰胆碱逐渐减少。正常接头余量充足；病变接头里，失败的纤维越来越多。",
+      "subtitle": [
+        "连续冲动：ACh 释放逐次减少",
+        "正常无碍，病变接头失败增多"
+      ]
+    },
+    {
+      "id": "S28",
+      "act": "第六幕 波动性肌无力（03:47–04:20）",
+      "part": "",
+      "start_seconds": 239,
+      "end_seconds": 248,
+      "frame_start": 5737,
+      "frame_end": 5952,
+      "narration": "这在肌电图上表现为低频重复神经刺激时波幅递减，是诊断的重要依据之一。",
+      "subtitle": [
+        "低频重复神经刺激（RNS）",
+        "CMAP 波幅递减"
+      ]
+    },
+    {
+      "id": "S29",
+      "act": "第六幕 波动性肌无力（03:47–04:20）",
+      "part": "",
+      "start_seconds": 248,
+      "end_seconds": 260,
+      "frame_start": 5953,
+      "frame_end": 6240,
+      "narration": "休息之后，小泡补足，肌力部分恢复。所以肌无力呈波动性：越用越重，休息减轻，常常傍晚更明显。",
+      "subtitle": [
+        "休息后小泡补足，肌力部分恢复",
+        "越用越重、休息减轻、常傍晚加重"
+      ]
+    },
+    {
+      "id": "S30",
+      "act": "第七幕 补充：MuSK-MG 与 AChR-MG 的差异（04:20–04:49）",
+      "part": "",
+      "start_seconds": 260,
+      "end_seconds": 269,
+      "frame_start": 6241,
+      "frame_end": 6456,
+      "narration": "在 MuSK-MG 中，抗体针对的是 MuSK——负责维持受体成簇的关键蛋白。",
+      "subtitle": [
+        "MuSK-MG：抗体针对 MuSK",
+        "MuSK 负责维持受体成簇"
+      ]
+    },
+    {
+      "id": "S31",
+      "act": "第七幕 补充：MuSK-MG 与 AChR-MG 的差异（04:20–04:49）",
+      "part": "",
+      "start_seconds": 269,
+      "end_seconds": 282,
+      "frame_start": 6457,
+      "frame_end": 6768,
+      "narration": "这类抗体以 IgG4 为主，只用一条臂结合，几乎不激活补体；它阻断 MuSK 与 LRP4 的结合，受体簇逐渐松散。",
+      "subtitle": [
+        "IgG4 为主，单臂结合，几乎不激活补体",
+        "阻断 MuSK–LRP4 → 受体簇松散"
+      ]
+    },
+    {
+      "id": "S32",
+      "act": "第七幕 补充：MuSK-MG 与 AChR-MG 的差异（04:20–04:49）",
+      "part": "",
+      "start_seconds": 282,
+      "end_seconds": 289,
+      "frame_start": 6769,
+      "frame_end": 6936,
+      "narration": "一个直接破坏受体和肌膜，一个切断维持受体的信号。",
+      "subtitle": [
+        "AChR-MG：破坏受体与肌膜",
+        "MuSK-MG：切断维持信号"
+      ]
+    },
+    {
+      "id": "S33",
+      "act": "第八幕 结尾（04:49–05:00）",
+      "part": "",
+      "start_seconds": 289,
+      "end_seconds": 296,
+      "frame_start": 6937,
+      "frame_end": 7104,
+      "narration": "理解这些分子过程，是理解重症肌无力诊断与治疗的基础。",
+      "subtitle": [
+        "理解分子机制",
+        "是理解 MG 诊断与治疗的基础"
+      ]
+    },
+    {
+      "id": "S34",
+      "act": "第八幕 结尾（04:49–05:00）",
+      "part": "",
+      "start_seconds": 296,
+      "end_seconds": 300,
+      "frame_start": 7105,
+      "frame_end": 7200,
+      "narration": "",
+      "subtitle": [
+        "本片为示意动画，仅供医学教育参考",
+        "不构成诊疗建议"
+      ]
+    }
+  ]
+}

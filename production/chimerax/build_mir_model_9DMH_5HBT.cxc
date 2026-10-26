@@ -1,0 +1,18 @@
+# AChR-MG 分子动画 · S11 示意模型：经典 MIR 抗体 Fab35 结合在人源全长 AChR 上
+# 思路：5HBT 只含 α1 胞外域 + Fab35（+ α-银环蛇毒素）。把其中的 α1 胞外域叠合到 9DMH 的一个 α 亚基上，
+#       Fab35 就落在全长受体的主要免疫原区（MIR）位置。得到的是"叠合示意模型"，不是实验测定的复合物结构。
+# 用法：在 ChimeraX 命令行输入  open 本文件的完整路径，再按下方注释手动完成后几步。
+# 说明：未在本仓库的测试环境中运行（无法安装 ChimeraX）。
+
+open 9dmh
+open 5hbt
+
+# 按序列自动把 5HBT 的 α1 胞外域叠合到 9DMH 的一个 α 亚基上；Log 中会写明配对的是哪两条链
+matchmaker #2 to #1
+
+# ---- 以下几步需要先在 Log 的 "Chain information" 表中确认链名，再手动输入（把 X、Y 换成实际链名）----
+# delete #2/X                              删除 5HBT 中与 9DMH 重复的 α1 胞外域
+# delete #2/Y                              删除 α-银环蛇毒素（实验用配体，不属于 MG 机制）
+# clashes #2 restrict #1                   检查 Fab35 是否与相邻亚基明显碰撞
+# combine #1,2 modelId 3 name AChR_Fab35   合并为一个模型
+# save AChR_Fab35_MIR.cif models #3        保存后在 Blender 中用 mg_import_structures.py 的 --files 导入
